@@ -1,0 +1,14 @@
+[package]
+name = "api-err"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shelby Doolittle (shelby@shelbyd.com)"]
+description = "Convenient to write errors for APIs"
+license = "MIT"
+
+[dependencies]
+anyhow = "*"
+
+[features]
+http = []
+json_rpc = []
