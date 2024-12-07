@@ -5,9 +5,12 @@ edition = "2021"
 authors = ["Shelby Doolittle (shelby@shelbyd.com)"]
 description = "Convenient to write errors for APIs"
 license = "MIT"
+documentation = "https://docs.rs/api-err"
+homepage = "https://crates.io/crates/api-err"
+repository = "https://github.com/shelbyd/api-err"
 
 [dependencies]
-anyhow = "*"
+anyhow = "1.0.94"
 
 [features]
 http = []
